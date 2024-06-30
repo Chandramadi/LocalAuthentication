@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 202, 202);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner {
+    width: 60%;
+    margin: 20px auto;
+    /* Centers the banner horizontally and adds a gap at the top */
+    background-color: #f6f6f6;
+    /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
+}
+
+.profileImg img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profilediv h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.btn {
+    width:80px;
+    height: 42px;
+    border: hidden;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.int {
+    background-color: #f30d19;
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.int:hover {
+    background-color: #df0812;
+}
